@@ -12,5 +12,5 @@ class main():
         os.system("mv ip /bin")
         os.system("pkg install curl")
         print("Installed Succeed ! Put [ip] And You Will Get Your ip" )
-banner()
-setup()
+main().banner()
+main().setup()
